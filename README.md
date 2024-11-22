@@ -1,116 +1,18 @@
-<p align="center">
-    <img width="300" src="./assets/images/banner/logo.svg">
-</p>
+# Mundo Invertido - Front-end Challenge
 
----
+This project was built as part of a front-end development challenge by DIO (Digital Innovation One). It is a simple website inspired by the series *Stranger Things* that aims to simulate the concept of an "Invertido Mundo" (Upside Down World). 
 
-Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado(a)?
+The website incorporates basic HTML, CSS, and JavaScript concepts to create an interactive experience where users can explore a fictional world, watch a trailer, and even sign up for a Dungeons & Dragons club.
 
-## ▶️ Semana Front-end
+## Features
 
-- [Live Dia 01](https://www.youtube.com/watch?v=FZgIQUDn8zo)
-- [Live Dia 02](https://www.youtube.com/watch?v=WHbhgxJLbN4)
+- **Light and Dark Theme Toggle**: Users can switch between a light theme and a dark theme using a button that inverts the world on the page.
+- **Audio**: The site features background audio that plays automatically when the page is loaded.
+- **Interactive Form**: A form for signing up to a fictional Dungeons & Dragons club, where users can enter their name, email, character, and level.
+- **Gallery**: A collection of images from the series showcasing some of the main characters and scenes.
+  
+## Technologies Used
 
-## 💻 Tecnologias
-
-- HTML
-- CSS
-- JavaScript
-
-## 💬 Assuntos abordados
-
-- HTML
-  - Estruturação da página
-  - Semântica
-  - Acessibilidade
-  - Web Scraping
-  - SEO
-- CSS
-  - Posicionamentos
-  - Pseudo-elementos
-  - Pseudo-classes
-  - Flexbox
-  - Animações
-- JavaScript
-  - Introdução ao JavaScript
-  - Manipulação do DOM
-  - Introdução ao Firebase
-  - Integração com o Firebase
-
-## 🎨 Variáveis do Tema CSS
-
-```css
-/*** VARIABLES & THEMES ***/
-
-:root {
-  --primary-color: #cf0f0f;
-  --primary-color-contrast: #fff;
-  --field-background-color: #000;
-}
-
-.light-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #fff 0%,
-    #fff 65%,
-    rgba(255, 255, 255, 0.75) 100%
-  );
-  --header-background-color: #e3e3e3;
-  --highlight-color: #000;
-  --featured-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
-  --character-top-image-color: #fff;
-  --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
-  --character-bottom-image-color: #e5e5e5;
-  --background-lamp-image: url("../images/backgrounds/lamps.png");
-  --footer-background-color: #b5bbbf;
-}
-
-.dark-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #050000 0%,
-    #130404 65%,
-    rgba(19, 1, 1, 0.75) 100%
-  );
-  --header-background-color: #220f0f;
-  --highlight-color: #fff;
-  --featured-font-family: "Rubik Glitch", sans-serif;
-  --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
-  --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-  --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
-  --character-top-image-color: #000;
-  --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
-  --footer-background-color: #000;
-}
-```
-
-## 🔗 Links auxiliares
-
-- [W3C - World Wide Web Consortium](http://w3c.org)
-- [WAI - Web Acessibility Initiative](https://www.w3.org/WAI/)
-- [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/)
-- [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1)
-- [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/)
-
-## 🌎 Nossas redes sociais
-
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/16018277?v=4"/>
-    <p>&nbsp&nbsp&nbspDiogo Medeiros Mainardes<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/diogomainardes.dev">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/diogomainardes">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/diogomainardes/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/dimmbr">Twitch</a></p>
-</p>
-<br/><br/>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
-    <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/programi_">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/michele_ambrosio">Twitch</a></p>
-</p>
-<br/><br/>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/3266640?v=4"/>
-    <p>&nbsp&nbsp&nbspRenan Johannsen de Paula <br>
-    &nbsp&nbsp&nbsp<a href="https://github.com/RenanJPaula">GitHub</a>&nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/renanjpaula/">LinkedIn</a>
-    </p>
-</p>
+- **HTML**: Structure of the web pages.
+- **CSS**: Styling and animations for a dynamic and visually appealing interface.
+- **JavaScript**: Functionality for interactive elements.
